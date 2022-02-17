@@ -1,5 +1,70 @@
 .curso-main-container
-  background-color: $color-fondo
+  background-color: $color-sistema-f
 
+// Estilos generales
+.contenedor1
+  background-color: $color-contenedor1  
+
+// Estilos banner
+@media only screen and (max-width: 1199px)
+  .banner-principal .tarjeta
+    background-size: auto
+    background-position: 0
+    background-repeat: no-repeat
+
+@media screen and (min-width: 1200px)
+  .banner-principal__img
+    background-size: 60%, 65%;  
+
+.banner-principal__img
+  align-self: stretch
+  background-position: 50% center, 50% 50%
+  background-repeat: no-repeat, no-repeat
+  animation-name: cambiar
+  animation-duration: 5s
+  animation-iteration-count: infinite
+  animation-play-state: running
+  animation-timing-function: steps(1, end)
+  img
+    display: none !important
+
+.banner-principal__img:hover
+  animation-play-state: paused
+
+@keyframes cambiar
+  0%
+    background-image: url("../assets/curso/secuencia_banner/zbanner1.png")
+  25%
+    background-image: url("../assets/curso/secuencia_banner/zbanner2.png")
+  50%
+    background-image: url("../assets/curso/secuencia_banner/zbanner3.png")
+  75%
+    background-image: url("../assets/curso/secuencia_banner/zbanner4.png")
+  100%
+    background-image: url("../assets/curso/secuencia_banner/zbanner1.png")
+
+// Estilos introducción
 .bgIntro
-  background-color: $color-fondo
+  background-color: $color-fondo-introduccion
+
+// Estilos Tema1
+.bg01:after
+  content: ''
+  border-top: 40vh solid #FEE9CC
+  border-right: 100vw solid #fff8e3
+  width: 0
+  position: absolute
+
+.linea-tiempo-a::before
+  background: $color-acento-contenido
+
+.linea-tiempo-a__content span
+  text-align: left
+  max-width: 350px
+  line-height: 1.5em
+
+.linea-tiempo-a__icon__container span
+  color: white
+
+.sendFront  
+  z-index: 1

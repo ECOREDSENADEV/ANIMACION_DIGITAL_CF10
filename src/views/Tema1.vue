@@ -13,11 +13,25 @@
         p.text-center.m-0 A lo largo de los años la legislación para industrias creativas y culturales se ha ido actualizando y modificando
         
     //- LineaTiempo
-    LineaTiempoA.color-primario.mb-5(:datos="datosLineaTiempoA")
+    LineaTiempoA.color-primario.pb-5.mb-5(:datos="datosLineaTiempoA")
 
-    .row.justify-content-center
-      .col.col-8.contenedor1.rounded-pill.p-4
+    .position-relative.mt-5
+      img.imgLineaTiempo.img-fluid(src='@/assets/curso/tema1/img2.png', alt='Legislación para industrias creativas y culturales')
+
+    br
+    
+    .row.justify-content-center.mt-5
+      .col.col-8.contenedor1.borderRounded.p-4.position-relative
+        img.imgDanger(src='@/assets/curso/tema1/danger.svg')
         p.text-center Es importante resaltar que las industrias creativas comprenden los sectores que conjugan creación, producción y comercialización de bienes y servicios basados en contenidos intangibles de carácter cultural, y/o aquellos que generen protección en el marco de los derechos de autor.
+
+    .row.my-5.justify-content-center
+      .col.col-12.col-md-3    
+        img.img-fluid(src='@/assets/curso/tema1/img3.jpg', alt='Economía naranja')
+      .col.col-12.col-md-5    
+        p En el marco legal, el Consejo de la Economía Naranja construye un programa para incentivar y aumentar las exportaciones de bienes y servicios creativos que creará un reconocimiento a las empresas que generan las mayores exportaciones en dichos sectores.
+        p Este es entonces, el marco legal en el que pueden operar las empresas o profesionales que se dediquen a la producción de contenido audiovisual, donde encajan los productos de 
+          span.fw-bold animación digital.
 </template>
 
 <script>

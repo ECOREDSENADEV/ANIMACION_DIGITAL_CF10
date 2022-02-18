@@ -3,7 +3,16 @@
 
 // Estilos generales
 .contenedor1
-  background-color: $color-contenedor1  
+  background-color: $color-contenedor1
+
+.color-primario  
+  color: $color-primario
+
+.sendFront  
+  z-index: 1
+
+.borderRounded
+  border-radius: 25px;
 
 // Estilos banner
 @media only screen and (max-width: 1199px)
@@ -50,7 +59,7 @@
 // Estilos Tema1
 .bg01:after
   content: ''
-  border-top: 40vh solid #FEE9CC
+  border-top: 40vh solid #F7EFD7
   border-right: 100vw solid #fff8e3
   width: 0
   position: absolute
@@ -66,5 +75,92 @@
 .linea-tiempo-a__icon__container span
   color: white
 
-.sendFront  
-  z-index: 1
+.imgLineaTiempo
+  position: absolute
+  width: 295px  
+  height: 160px
+  right: 100px
+  top: -180px
+
+.imgDanger
+  position: absolute
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 76px
+  height: 70px
+  top: -50px
+
+// Estilos tema2
+.caja  
+  background: rgb(255,255,255)
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,248,227,1) 46%, rgba(255,248,227,1) 100%)
+
+.bloque-texto-c:after
+  background-color: $color-primario
+
+.bloque-texto-c i  
+  color: $color-primario
+
+.color-primario
+  background-color: #fff8e3
+
+.cajon.color-primario
+  background-color: #fff8e3
+
+hr.tema2
+  border-top: 1px solid $color-primario;
+  width: 80%
+
+
+table.blueTable
+  border: 1px solid #AFAFAF
+  background-color: #F8E2E2
+  width: 100%
+  text-align: left
+
+  td, th
+    border: 1px solid #AAAAAA
+    padding: 20px 20px
+
+
+  tr:nth-child(even)
+    background: #FFFFFF
+
+  thead
+    background: #D44F4A
+
+    th
+      font-size: 15px
+      font-weight: bold
+      color: #FFFFFF
+      text-align: center
+      border-left: 2px solid #D0E4F5
+
+      &:first-child
+        border-left: none
+
+  tfoot
+    td
+      font-size: 14px
+
+    .links
+      text-align: right
+
+      a
+        display: inline-block
+        background: #1C6EA4
+        color: #FFFFFF
+        padding: 2px 8px
+        border-radius: 5px
+
+.img-personas
+  position: absolute
+  width: 190px
+  height: 115px
+  top: 0
+  right: -120px
+
+  @media screen and (max-width: 991px)
+    position: relative

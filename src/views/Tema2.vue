@@ -17,7 +17,7 @@
 
     //- Tabs
     TabsB.color-acento-contenido.mb-5
-      .py-2.py-md-5(titulo="Emprendimiento y emprendimiento cultural" :icono="require('@/assets/componentes/ej-04.svg')")
+      .py-2.py-md-5(titulo="Emprendimiento y emprendimiento cultural" :icono="require('@/assets/curso/tema2/img-tab.svg')")
         .row.justify-content-center
           .col.col-8.mb-4.mb-md-0
             hr.tema2
@@ -41,7 +41,7 @@
               p.px-4 El emprendimiento está relacionado con la administración de empresas como área de estudio y, aunque el éxito de un emprendimiento sí está determinado por el conocimiento de los distintos aspectos que conforman una organización, no es necesario estudiar esta carrera para tener resultados satisfactorios; 
                 span.fst-italic basta con conocer las metodologías para convertir las ideas en proyectos y estos en realidades.
 
-      .py-2.py-md-5(titulo="Proyecto cultural" :icono="require('@/assets/componentes/ej-04.svg')")
+      .py-2.py-md-5(titulo="Proyecto cultural" :icono="require('@/assets/curso/tema2/img-tab.svg')")
         .row.justify-content-center
           .col.col-8.mb-4.mb-md-0
             hr.tema2

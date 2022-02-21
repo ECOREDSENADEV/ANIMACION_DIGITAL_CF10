@@ -65,12 +65,12 @@
         .row.justify-content-center
           .col.col-10.mb-4.mb-md-0
             p Para el caso de un proyecto audiovisual, este proceso se refiere a la búsqueda, definición y gestión de recursos financieros, materiales y de talento humano necesarios para transformar una idea concebida o adquirida, en un producto o contenido audiovisual.
-            br
-            p Paralelo al ciclo de vida de un proyecto genérico, las etapas de un proyecto o producción audiovisual son las siguientes:
+          .col.col-10.mb-4.py-2.border.border-warning.rounded-pill.text-center
+            p.mb-0 Paralelo al ciclo de vida de un proyecto genérico, las etapas de un proyecto o producción audiovisual son las siguientes:
 
-            figure
-              .video
-                iframe(width='560' height='315' src='https://www.youtube.com/embed/2L91WMqw96A' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen)
+          figure.mt-4
+            .video
+              iframe(width='560' height='315' src='https://www.youtube.com/embed/2L91WMqw96A' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen)
 
           .col.col-10.contenedor1.borderRounded.my-4.p-4
             p A continuación, se presentan los elementos, ordenados según fases, que según el Instituto Latinoamericano de Planificación Económica y Social (ILPES), de la FAO y de otras instituciones y autores, se consideran básicos en la formulación de proyectos, independiente del área social, económica o educativa al que pertenezca:
@@ -81,13 +81,13 @@
         .row.justify-content-center
           .col.col-10.mb-4.mb-md-0
             p Además del ciclo de vida, para abordar las problemáticas desde la perspectiva de proyecto, existen otros métodos o metodologías para asumir las acciones a desarrollar. Cada metodología prioriza los aspectos en los que se enfocará el desarrollo del proyecto, pero todas persiguen alcanzar resultados satisfactorios. La elección de la metodología es uno de los aspectos más importantes en la formulación de proyectos, ya que de la correcta ejecución de cada una de sus etapas, se conseguirán o no, los objetivos previstos.
-            br
-            p Se verá a continuación un referente de las más utilizadas a través del siguiente vídeo:
+          .col.col-10.mb-4.py-2.border.border-warning.rounded-pill.text-center
+            p.mb-0 Se verá a continuación un referente de las más utilizadas a través del siguiente vídeo:
 
-            figure
-              .video
-                iframe(width='560' height='315' src='https://www.youtube.com/embed/2L91WMqw96A' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen)
-            br
+          figure
+            .video
+              iframe(width='560' height='315' src='https://www.youtube.com/embed/2L91WMqw96A' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen)
+          br
 
           .col.col-8.cajonFEE9CC.borderRounded.my-4.p-4
             p En el caso de 

@@ -77,7 +77,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
               
-              a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/OKEst_Formato de propuesta creativa.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto

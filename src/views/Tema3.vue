@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido.mb-0
       .titulo-principal__numero
         span 3
       h1 ¿Cómo realizar proyectos?

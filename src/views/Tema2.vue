@@ -112,7 +112,7 @@
 
 
             .row.mt-5
-              .col.col-11.color-primario.borderRounded.p-4.position-relative
+              .col.col-11.bg-color-primario.borderRounded.p-4.position-relative
                 p.mb-0.px-4 De la misma manera, para adaptarse a los métodos de consecución de recursos, se puede elaborar un proyecto de corto plazo que tenga por objeto generar un determinado impacto, por ejemplo, en una comunidad o un barrio.
                 img.img-personas(src='@/assets/curso/tema2/img4.svg')
 

@@ -21,7 +21,7 @@
         picture
           img(src='@/assets/curso/tema6/img01.png', alt='Actividades necesarias', class='img-fluid')
       
-      .col.col-10.col-lg-6
+      .col.col-10.col-lg-6.px-0
         p Las actividades necesarias para esta etapa son las siguientes
         ol.lista-ol--cuadro
           li
@@ -86,7 +86,7 @@
                 p Los indicadores son herramientas que aportan información medible sobre los aspectos más relevantes de un proyecto.
 
                 //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-                .cajon.color-primario.p-4.mb-4
+                .cajon.color-acento-contenido.p-4.mb-4
                   p Un Indicador es una expresión cualitativa o cuantitativa observable que permite describir características, comportamientos o fenómenos de la realidad a través de la evolución de una variable o el establecimiento de una relación entre variables que, comparadas con periodos anteriores, o frente a una meta o compromiso, permite evaluar el desempeño y su evolución en el tiempo. Los indicadores sirven para establecer el logro y el cumplimiento de la misión, objetivos, metas, programas o políticas de un determinado proceso o estrategia, por esto podemos decir que son, ante todo, la información que agrega valor y no simplemente un dato.
 
                 p Los indicadores permiten evidenciar el nivel de cumplimiento acerca de lo que está haciendo la organización y sobre los efectos de sus actividades y según el Departamento Administrativo de la Función Pública (2012), en la guía para indicadores de gestión señala a través de la medición de aspectos tales como: talento humano, presupuesto, planta y equipos; cargas de trabajo, número de personas requeridas para realizar una actividad. Resultados como ciudadanos atendidos, oficios respondidos, ejecución del cronograma, niños vacunados, kilómetros construidos, etc.

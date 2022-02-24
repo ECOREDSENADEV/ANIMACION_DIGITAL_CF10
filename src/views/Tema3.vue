@@ -56,7 +56,7 @@
           strong monitoreo o seguimiento y evaluación 
           | de eficiencia, efectividad e impacto de las iniciativas culturales.
 
-        .cajon.color-primario.p-4.mb-4
+        .cajon.color-acento-contenido.p-4.mb-4
           p La decisión de realizar un proyecto tiene que ver con una motivación, inquietud, oportunidad o suceso que provoca en el autor un interés tal, como para iniciar el proceso de consecución de recursos que permitirán su ejecución. Los proyectos normalmente están condicionados por el contexto económico, social e institucional que determinan el alcance que tendrán.
 
     //- Tabs

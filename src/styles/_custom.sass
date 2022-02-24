@@ -9,6 +9,12 @@
   color: $color-primario
   background-color: none
 
+.bg-color-acento-contenido
+   background-color: #FFF8E3
+
+.cajon.color-acento-contenido
+   background-color: #FFF8E3
+
 .sendFront  
   z-index: 1
 
@@ -65,6 +71,9 @@
   width: 0
   position: absolute
 
+.linea-tiempo-a__text
+  color: black
+
 .linea-tiempo-a::before
   background: $color-acento-contenido
 
@@ -82,6 +91,11 @@
   height: 160px
   right: 100px
   top: -180px
+
+  @media screen and (max-width: 772px)
+    bottom: 50px
+    right: -20px
+    top: -180px
 
 .imgDanger
   position: absolute
@@ -107,12 +121,10 @@
 .bg-color-primario
   background-color: #fff8e3
 
-.cajon.color-primario
-  background-color: #fff8e3
-
 hr.tema2
-  border-top: 1px solid $color-primario;
   width: 80%
+  border-top: 1px solid #D44F4A;
+  color: #D44F4A 
 
 
 table.blueTable
@@ -321,3 +333,28 @@ table.tabla-presupuesto
     font-size: 15px;
     font-weight: bold;
     text-align: center
+
+// Tema 8
+.bg-tema08
+  background: rgb(255,248,227)
+  background: linear-gradient(0deg, rgba(255,248,227,1) 0%, rgba(255,248,227,0.5046393557422969) 25%, rgba(255,255,255,0.0984768907563025) 100%)
+  border-radius: 45px
+
+.bg-p2
+  background-image: url("../assets/curso/tema8/rectangle.png")
+  background-repeat: no-repeat  
+
+.hr8
+  width: 70%
+  margin: auto;
+  border-top: 1px solid #D44F4A;
+  color: #D44F4A 
+
+.tabs-a__tab__selected .tabs-a__tab__text
+  color: white
+
+.slyder-a__tipo-a .slyder-a__bullets
+  bottom: -10px
+  
+  @media screen and (max-width: 987px)
+    bottom: 50px

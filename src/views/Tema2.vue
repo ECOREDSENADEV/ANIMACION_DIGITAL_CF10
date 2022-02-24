@@ -37,7 +37,7 @@
               .col.col-12.col-md-4
                 img(src='@/assets/curso/tema2/img2.svg', alt='Emprendimiento cultural')
 
-            .cajon.color-primario.color-acento-contenido.p-4.my-4
+            .cajon.color-acento-contenido.p-4.mb-4
               p.px-4 El emprendimiento está relacionado con la administración de empresas como área de estudio y, aunque el éxito de un emprendimiento sí está determinado por el conocimiento de los distintos aspectos que conforman una organización, no es necesario estudiar esta carrera para tener resultados satisfactorios; 
                 span.fst-italic basta con conocer las metodologías para convertir las ideas en proyectos y estos en realidades.
 
@@ -54,7 +54,7 @@
                 p El proyecto es un formato definido para la comunicación entre un emprendedor, creativo o artista que tiene una idea o un bien intelectual o intangible, un producto o un servicio, y un financiador que tiene unos recursos económicos que puede destinar al mismo fin. El documento del proyecto contiene el detalle de las actividades, el presupuesto, el tiempo y los resultados finales; permite comprender una necesidad, un problema y ofrecer una solución.
                 p Los proyectos se formulan para planificar de manera estratégica y anticiparse a todo lo que se espera que ocurra en el proceso de generación o creación de bienes, servicios, productos e intangibles. Es el primer paso en el camino para la materialización de las ideas desde un plan de negocio. 
 
-            .cajon.color-primario.color-acento-contenido.p-4.my-4
+            .cajon.color-acento-contenido.p-4.mb-4
               p.px-4 Es importante diferenciar desde primer momento si lo que se pretende es realizar un proyecto o un plan de negocio, puesto que ambos tienen objetivos y procesos distintos, e implican métodos de trabajo diferentes, tal y como se observa en la siguiente tabla 1.
 
             .titulo-sexto.color-acento-contenido
